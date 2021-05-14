@@ -1,0 +1,10 @@
+apiVersion: 1
+
+datasources:
+  - name: influxDB
+    type: influxdb
+    url: http://influxdb-svc:8086
+    database: telegraf
+    user: lelsweyr
+    secureJsonData:
+      password: root
